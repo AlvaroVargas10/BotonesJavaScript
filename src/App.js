@@ -19,6 +19,8 @@ function App() {
   // Funciones del segundo contador
   const manejarClick2 = () => setNumClicks2(numClicks2 + 1);
   const multiplicar2 = () => setNumClicks2(numClicks2 * 2);
+  const restar2 = () => setNumClicks2(numClicks2 -2);
+  const reiniciarContador2 = () => setNumClicks2(0);
 
   return (
     <div className="App">
@@ -40,6 +42,8 @@ function App() {
 
         <Boton texto="Click" esBotonDeClic manejarClick={manejarClick2} />
         <Boton texto="x2" manejarClick={multiplicar2} />
+        <Boton texto="reiniciarContador" manejarClick={reiniciarContador2} />
+        <Boton texto="restar2" manejarClick={restar2} />
       </div>
 
       <Footer />
