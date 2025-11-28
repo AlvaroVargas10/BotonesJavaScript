@@ -12,7 +12,7 @@ button{
     cursor: pointer;
 }
 button:hover{
-    background-color: green;
+    background-color: rgb(41, 3, 38);
 }
 .boton-clic{
     background-color: purple;
